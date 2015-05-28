@@ -1,0 +1,108 @@
+Warn : deprecated option: -p/--pipe. Use '-c "gdb_port pipe; log_output openocd.log"' instead.
+Info : only one transport option; autoselect 'jtag'
+adapter speed: 6000 kHz
+dcc downloads are enabled
+fast memory access is enabled
+use of EmbeddedICE dbgrq instead of breakpoint for target halt enabled
+apf9328_init
+Info : clock speed 6000 kHz
+Info : JTAG tap: xc3s200.fpga tap/device found: 0x01414093 (mfg: 0x049, part: 0x1414, ver: 0x0)
+Info : JTAG tap: mc9328mxl.cpu tap/device found: 0x1092001d (mfg: 0x00e, part: 0x0920, ver: 0x1)
+Info : Embedded ICE version 2
+Info : mc9328mxl.cpu: hardware has 2 breakpoint/watchpoint units
+Info : accepting 'gdb' connection from pipe
+adapter speed: 500 kHz
+Info : JTAG tap: xc3s200.fpga tap/device found: 0x01414093 (mfg: 0x049, part: 0x1414, ver: 0x0)
+Info : JTAG tap: mc9328mxl.cpu tap/device found: 0x1092001d (mfg: 0x00e, part: 0x0920, ver: 0x1)
+reset: catch
+undef: don't catch
+swi: don't catch
+pabt: don't catch
+dabt: don't catch
+irq: don't catch
+fiq: don't catch
+target state: halted
+target halted in ARM state due to debug-request, current mode: System
+cpsr: 0x8000005f pc: 0x00000f48
+MMU: disabled, D-Cache: disabled, I-Cache: enabled
+target state: halted
+target halted in ARM state due to debug-request, current mode: Supervisor
+cpsr: 0x800000d3 pc: 0x00000000
+MMU: disabled, D-Cache: disabled, I-Cache: disabled
+reset: don't catch
+undef: don't catch
+swi: don't catch
+pabt: don't catch
+dabt: don't catch
+irq: don't catch
+fiq: don't catch
+2: c0000078
+0x08000000: ffffffff 
+0x08000000: ffffffff 
+0x08000000: ffffffff 
+0x08000000: ffffffff 
+0x08000000: ffffffff 
+0x08000000: ffffffff 
+0x08000000: ffffffff 
+0x08000000: ffffffff 
+0x08000000: ffffffff 
+0x08223000: ffffffff 
+adapter speed: 6000 kHz
+Info : Flash Manufacturer/Device: 0x0089 0x0018
+Info : Flash Manufacturer/Device: 0x0089 0x0018
+Warn : configuration specifies 0x100000 size, but a 0x1000000 size flash was found
+adapter speed: 500 kHz
+Info : JTAG tap: xc3s200.fpga tap/device found: 0x01414093 (mfg: 0x049, part: 0x1414, ver: 0x0)
+Info : JTAG tap: mc9328mxl.cpu tap/device found: 0x1092001d (mfg: 0x00e, part: 0x0920, ver: 0x1)
+reset: catch
+undef: don't catch
+swi: don't catch
+pabt: don't catch
+dabt: don't catch
+irq: don't catch
+fiq: don't catch
+target state: halted
+target halted in ARM state due to debug-request, current mode: Supervisor
+cpsr: 0x800000d3 pc: 0x00000000
+MMU: disabled, D-Cache: disabled, I-Cache: disabled
+reset: don't catch
+undef: don't catch
+swi: don't catch
+pabt: don't catch
+dabt: don't catch
+irq: don't catch
+fiq: don't catch
+2: c0000078
+0x08000000: ffffffff 
+0x08000000: ffffffff 
+0x08000000: ffffffff 
+0x08000000: ffffffff 
+0x08000000: ffffffff 
+0x08000000: ffffffff 
+0x08000000: ffffffff 
+0x08000000: ffffffff 
+0x08000000: ffffffff 
+0x08223000: ffffffff 
+adapter speed: 6000 kHz
+adapter speed: 500 kHz
+Info : JTAG tap: xc3s200.fpga tap/device found: 0x01414093 (mfg: 0x049, part: 0x1414, ver: 0x0)
+Info : JTAG tap: mc9328mxl.cpu tap/device found: 0x1092001d (mfg: 0x00e, part: 0x0920, ver: 0x1)
+reset: catch
+undef: don't catch
+swi: don't catch
+pabt: don't catch
+dabt: don't catch
+irq: don't catch
+fiq: don't catch
+target state: halted
+target halted in ARM state due to debug-request, current mode: Supervisor
+cpsr: 0x800000d3 pc: 0x00000000
+MMU: disabled, D-Cache: disabled, I-Cache: disabled
+reset: don't catch
+undef: don't catch
+swi: don't catch
+pabt: don't catch
+dabt: don't catch
+irq: don't catch
+fiq: don't catch
+Info : dropped 'gdb' connection
