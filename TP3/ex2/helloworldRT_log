@@ -1,0 +1,37 @@
+# ./helloworldRT & sleep 1 && cat /proc/xenomai/stat
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+CPU  PID    MSW        CSW        PF    STAT       %CPU  NAME
+  0  0      0          33634      0     00500080   99.0  ROOT
+  0  459    11         22         0     00300184    0.0  HelloWorldRT
+  0  0      0          440584     0     00000000    0.2  IRQ59: [timer]
+# Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Hello World RT !
+Cleaned up task
+Exit
