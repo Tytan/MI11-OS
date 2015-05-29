@@ -1,4 +1,0 @@
-Warn : deprecated option: -p/--pipe. Use '-c "gdb_port pipe; log_output openocd.log"' instead.
-Runtime Error: embedded:startup.tcl:47: Can't find /home/mi11/OCD/apf9328.cfg
-in procedure 'script' 
-at file "embedded:startup.tcl", line 47
