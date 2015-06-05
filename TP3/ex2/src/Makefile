@@ -15,7 +15,7 @@ SRC=$(EXEC).c
 OBJ=$(SRC:.c=.o)
 
 CFLAGS=-g -W -Wall -I$(XENO_INC) -D_GNU_SOURCE -D_REENTRANT
-LDFLAGS=-lpthread -lnative -lrtdm -L$(XENO_LIB)
+LDFLAGS=-lpthread -lnative -lrtdk -L$(XENO_LIB)
 
 all: $(EXEC)
 

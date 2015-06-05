@@ -1,5 +1,6 @@
 #include <sys/mman.h>
 #include <native/task.h>
+#include <rtdk.h>
 
 #include <unistd.h>
 
@@ -10,7 +11,7 @@
 RT_TASK task_desc;
 void task_body (void *cookie) {
 	for (;;) {
-		printf("Hello World RT !\n");
+		rt_printf("Hello World RT !\n");
 		rt_task_sleep(100000000);
 	}
 }
@@ -22,6 +23,7 @@ void cleanup (void) {
 int main (int argc, char *argv[]) {
 	int err;
 	mlockall(MCL_CURRENT|MCL_FUTURE);
+	rt_print_auto_init(1);
 	err = rt_task_create(&task_desc, "HelloWorldRT", TASK_STKSZ, TASK_PRIO, TASK_MODE);
 	if (!err)
 		rt_task_start(&task_desc,&task_body,NULL);
