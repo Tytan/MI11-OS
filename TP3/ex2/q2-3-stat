@@ -1,0 +1,4 @@
+CPU  PID    MSW        CSW        PF    STAT       %CPU  NAME
+0  0      0          325        0     00500080  100.0  ROOT
+0  445    62         124        0     00300184    0.0  HelloWorldRT
+0  0      0          26501946   0     00000000    0.0  IRQ59: [timer]

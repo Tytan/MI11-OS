@@ -3,7 +3,8 @@
 
 #include <unistd.h>
 
-#define TASK_PRIO  99 /* Highest RT priority */
+#define TASK1_PRIO  9 
+#define TASK2_PRIO  99 
 #define TASK_MODE  0  /* No flags */
 #define TASK_STKSZ 0  /* Stack size (use default one) */
 
@@ -30,8 +31,8 @@ void cleanup (void) {
 int main () {
 	int err1, err2;
 	mlockall(MCL_CURRENT|MCL_FUTURE);
-	err1 = rt_task_create(&task1, "Hello", TASK_STKSZ, TASK_PRIO, TASK_MODE);
-	err2 = rt_task_create(&task2, "WorldRT", TASK_STKSZ, TASK_PRIO, TASK_MODE);
+	err1 = rt_task_create(&task1, "Hello", TASK_STKSZ, TASK1_PRIO, TASK_MODE);
+	err2 = rt_task_create(&task2, "WorldRT", TASK_STKSZ, TASK2_PRIO, TASK_MODE);
 	if (!err1)
 		rt_task_start(&task1,&task1_body,NULL);
 	if (!err2)
